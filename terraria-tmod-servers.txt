@@ -1,0 +1,62 @@
+Terraria & tMod Servers
+
+Quick Links:
+https://terraria.fandom.com/wiki/Guide:Setting_up_a_Terraria_server
+https://www.youtube.com/watch?v=1RYdtzFBk34
+https://www.youtube.com/watch?v=vN8LqgKPN0s
+
+Install (Mac):
+install Steam, Terraria & tMod
+- add mods in tMod
+nav to Steam's Terraria folder
+- Library (use Cmd + Space + 'Library' or make alias) > Application\ Support > Terraria
+add Terraria server app to folder
+- download from https://terraria.org (link at bottom)
+- open ZIP > Mac
+- drag app (? and changelog) into Terraria folder
+enable mac access
+- nav Terminal to Terraria folder (above)
+- sudo chmod -R 777 /app-path
+- enter password
+- double click server app to open
+- System Preferences > Security & Privacy > General > unlock and Allow to run
+enable tMod server
+- nav Terminal to tModLoader
+ - Library > Application Support > Steam > steamapps > common > tModLoader
+- sudo chmod -R 770 start-tModLoaderServer.sh
+- enter password
+- (?) System Preferences > Security & Privacy > General > unlock and Allow to run
+
+Run (Mac):
+run Terraria server
+- double click server app
+ - Library > Application Support > Terraria > Terraria Server
+- select world / enter #
+- enter player limit
+- set port (MUST BE DIFFERENT IF MULTIPLE INSTANCES RUNNING)
+- auto-forward: y 
+- set password
+- leave Terminal running
+run tMod server
+- navigate to tModLoaderServer.sh file in terminal
+ - Library > Application Support > Steam > steamapps > common > tModLoader
+- run "./start-tModLoaderServer.sh"
+- steam server: n 
+- select world / enter #
+- enter player limit
+- set port (MUST BE DIFFERENT IF MULTIPLE INSTANCES RUNNING)
+- auto-forward: y 
+- set password
+- leave Terminal running
+
+
+Notes:
+- will show players entering / leaving
+- tMod will show when it saves the world / makes backups
+ - will want to pause normal servers and make personal backups; prob don't need to for tMod but is smart
+
+
+
+Recommended (Mac):
+change energy settings to turn off display but never sleep
+use ethernet
