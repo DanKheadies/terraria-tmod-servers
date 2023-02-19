@@ -5,6 +5,7 @@ https://terraria.fandom.com/wiki/Guide:Setting_up_a_Terraria_server
 https://www.youtube.com/watch?v=1RYdtzFBk34
 https://www.youtube.com/watch?v=vN8LqgKPN0s
 
+
 Install (Mac):
 install Steam, Terraria & tMod
 - add mods in tMod
@@ -26,6 +27,16 @@ enable tMod server
 - sudo chmod -R 770 start-tModLoaderServer.sh
 - enter password
 - (?) System Preferences > Security & Privacy > General > unlock and Allow to run
+setup port forwarding
+- router ip into address bar
+ - u: admin
+ - p: admin
+- Forwarding > Virtual Servers > Add New
+- enter desired port
+- enter computer's ip address
+- save
+- check port is open on canyouseeme.org
+
 
 Run (Mac):
 run Terraria server
@@ -48,6 +59,12 @@ run tMod server
 - auto-forward: y 
 - set password
 - leave Terminal running
+
+
+Friends Joining:
+join via IP 
+- use router's WAN IP 
+- indicate port in 2nd step (don't add :XXXX to IP)
 
 
 Notes:
