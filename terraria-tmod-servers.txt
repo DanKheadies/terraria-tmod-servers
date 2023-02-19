@@ -36,6 +36,9 @@ setup port forwarding
 - enter computer's ip address
 - save
 - check port is open on canyouseeme.org
+ - "No route to host" - missing from router's port forwarding 
+ - "Connection refused" - port open but not active (i.e. run server now)
+ - "Not blocking" - g2g
 
 
 Run (Mac):
@@ -71,7 +74,7 @@ Notes:
 - will show players entering / leaving
 - tMod will show when it saves the world / makes backups
  - will want to pause normal servers and make personal backups; prob don't need to for tMod but is smart
-
+- prob want to backup the worlds every so often
 
 
 Recommended (Mac):
